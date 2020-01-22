@@ -57,6 +57,10 @@ Simple mobile application to make recording expenses easy
     Category can be created either via adding new expense, or manually in category screen by pressing
     "New category" button and entering (prompted) category name
     
+4. Clear expenses for category
+
+    In category context menu select `Clear expenses`. After prompt message, category is cleared of all of its expenses
+    
     
 ### Application components
 
@@ -86,7 +90,9 @@ Simple mobile application to make recording expenses easy
     1. For renaming: `[Merge, Cancel]`
     2. For deletion: `[Move to new category, Delete, Cancel]`
 3. Input prompt 
-    1. For renaming. Has text input field and `[Confirm, Cancel options]`
+    1. For renaming. Has text input field and `[Confirm, Cancel]` options
     2. To create new category
-3. Category selection prompt
-    1. To move expenses from deleted category 
+3. Category options prompt
+    1. Rename
+    2. Delete
+    3. Clear expenses
